@@ -1,9 +1,12 @@
 import { StatusBar } from 'expo-status-bar'
 import { StyleSheet, Text, View } from 'react-native'
 
+import HEllo from './src/components/Hello'
+
 const App = (): JSX.Element => {
   return (
     <View style={styles.container}>
+      <HEllo style={{ fontSize:16 }}>World</HEllo>
       <Text>Open up App.tsx to start working on your app!!!!</Text>
       <StatusBar style="auto" />
     </View>
