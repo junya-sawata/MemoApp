@@ -7,13 +7,11 @@ const MemoListItem = ():JSX.Element =>{
     return(
         <Link href='/memo/detail' asChild>
             <TouchableOpacity style={styles.memoListItem}>
-                <View> {/* Momo-List-Item_入力文字 */}
-                    <Text style={styles.memoListItemTitle}>買い物リスト</Text>
-                    <Text style={styles.memoListItemDate}>2024年12月9日 10:00</Text>
+                <View>
+                    <Text style={styles.memoListItemTitle}> 買い物リスト </Text>
+                    <Text style={styles.memoListItemDate}> 2024年12月9日 10:00 </Text>
                 </View>
-                <TouchableOpacity> {/* Momo-List-Item_削除Button */}
-                    <Icon name='delete' size={32} color='#B0B0B0' />
-                </TouchableOpacity>
+                <Icon name='delete' size={32} color='#B0B0B0' />
             </TouchableOpacity>
         </Link>
     )
@@ -28,7 +26,7 @@ const styles = StyleSheet.create({
         paddingHorizontal:19,
         alignItems:'center',
         borderBottomWidth:0.25,
-        borderColor:'rgba(0,0,0,0.15'
+        borderColor:'rgba(0,0,0,0.15)'
       },
 
       memoListItemTitle:{

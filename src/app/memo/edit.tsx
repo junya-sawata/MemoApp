@@ -5,7 +5,7 @@ import CircleButton from '../../components/CircleButton'
 import Icon from '../../components/Icon'
 
 const handlePress = ():void => {
-    router.back()
+    router.push('/memo/list')
 }
 
 const Edit = ():JSX.Element =>{

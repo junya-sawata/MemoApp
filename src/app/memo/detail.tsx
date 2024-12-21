@@ -11,7 +11,7 @@ const handlePress = ():void => {
 const Detail = (): JSX.Element => {
     return (
         <View style={styles.container}>
-            <View style={styles.memoHeader}> {/* Text */}
+            <View style={styles.memoHeader}>
                 <Text style={styles.memoTitle}>買い物リスト</Text>
                 <Text style={styles.memoDate}>2024年12月10日 10:10</Text>
             </View>

@@ -19,7 +19,7 @@ const List = (): JSX.Element => {
     })
   },[])
   return(
-    <View style={styles.container}> {/* body */}
+    <View style={styles.container}>
 
       <MemoListItem />
       <MemoListItem />
@@ -40,7 +40,5 @@ const styles = StyleSheet.create({
     backgroundColor:'#FFFFFF'
   }
 })
-
-
 
 export default List
